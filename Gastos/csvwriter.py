@@ -18,5 +18,5 @@ with open('Gastos.csv', 'a', newline='') as file:
         print("Ingrese Tipo Gasto: (Super-Otro-Etc)")
         gasto = str(input())
         writer.writerow([fecha,monto,gasto])
-        carga = bool(input('Carga otro dato y/n?:'))
+        carga = input('Carga otro dato? (y/n): ').lower().strip() == 'y'
         
