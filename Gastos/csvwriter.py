@@ -13,7 +13,7 @@ with open('Gastos.csv', 'a', newline='') as file:
         mes = int(input('MES: '))
         dia = int(input('DIA: '))
         fecha = date(ano, mes, dia)
-        print("Ingrese Monto €:$$$.¢¢")
+        print("Ingrese Monto:€€€€.¢¢")
         monto = (input("{:.2f}"))
         print("Ingrese Tipo Gasto: (Super-Otro-Etc)")
         gasto = str(input())
