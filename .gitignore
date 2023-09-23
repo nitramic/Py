@@ -1,3 +1,4 @@
 *.old
 00.*.ipynb
 00.casiprod
+.idea
